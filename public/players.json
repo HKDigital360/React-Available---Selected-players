@@ -1,0 +1,134 @@
+[
+  {
+    "image": "https://i.ibb.co/DD6Z5JH0/R-1.png",
+    "name": "Litton Das",
+    "country": "Bangladesh",
+    "playing_role": "Wicketkeeper Batter",
+    "rating": 750,
+    "batting_style": "Right hand bat",
+    "bowling_style": "Right arm offbreak",
+    "bpl_auction_rating": 9.2,
+    "price": 950000
+  },
+  {
+    "image": "https://i.ibb.co/DD6Z5JH0/R-1.png",
+    "name": "Taskin Ahmed",
+    "country": "Bangladesh",
+    "playing_role": "Bowler",
+    "rating": 780,
+    "batting_style": "Left hand bat",
+    "bowling_style": "Right arm fast",
+    "bpl_auction_rating": 9.0,
+    "price": 900000
+  },
+  {
+    "image": "https://i.ibb.co/DD6Z5JH0/R-1.png",
+    "name": "Mustafizur Rahman",
+    "country": "Bangladesh",
+    "playing_role": "Bowler",
+    "rating": 810,
+    "batting_style": "Left hand bat",
+    "bowling_style": "Left arm fast medium",
+    "bpl_auction_rating": 9.3,
+    "price": 1000000
+  },
+  {
+    "image": "https://i.ibb.co/DD6Z5JH0/R-1.png",
+    "name": "Towhid Hridoy",
+    "country": "Bangladesh",
+    "playing_role": "Batter",
+    "rating": 720,
+    "batting_style": "Right hand bat",
+    "bowling_style": "Right arm offbreak",
+    "bpl_auction_rating": 8.8,
+    "price": 750000
+  },
+  {
+    "image": "https://i.ibb.co/DD6Z5JH0/R-1.png",
+    "name": "Mohammad Naim",
+    "country": "Bangladesh",
+    "playing_role": "Batter",
+    "rating": 680,
+    "batting_style": "Left hand bat",
+    "bowling_style": "N/A",
+    "bpl_auction_rating": 8.5,
+    "price": 650000
+  },
+  {
+    "image": "https://i.ibb.co/DD6Z5JH0/R-1.png",
+    "name": "Shoaib Malik",
+    "country": "Pakistan",
+    "playing_role": "All rounder",
+    "rating": 720,
+    "batting_style": "Right hand bat",
+    "bowling_style": "Right arm offbreak",
+    "bpl_auction_rating": 8.7,
+    "price": 800000
+  },
+  {
+    "image": "https://i.ibb.co/DD6Z5JH0/R-1.png",
+    "name": "Dasun Shanaka",
+    "country": "Sri Lanka",
+    "playing_role": "All rounder",
+    "rating": 740,
+    "batting_style": "Right hand bat",
+    "bowling_style": "Right arm medium",
+    "bpl_auction_rating": 8.9,
+    "price": 850000
+  },
+  {
+    "image": "https://i.ibb.co/DD6Z5JH0/R-1.png",
+    "name": "Angelo Mathews",
+    "country": "Sri Lanka",
+    "playing_role": "All rounder",
+    "rating": 710,
+    "batting_style": "Right hand bat",
+    "bowling_style": "Right arm medium",
+    "bpl_auction_rating": 8.4,
+    "price": 700000
+  },
+  {
+    "image": "https://i.ibb.co/DD6Z5JH0/R-1.png",
+    "name": "Saim Ayub",
+    "country": "Pakistan",
+    "playing_role": "Batter",
+    "rating": 760,
+    "batting_style": "Left hand bat",
+    "bowling_style": "Right arm medium",
+    "bpl_auction_rating": 8.6,
+    "price": 775000
+  },
+  {
+    "image": "https://i.ibb.co/DD6Z5JH0/R-1.png",
+    "name": "Mahedi Hasan",
+    "country": "Bangladesh",
+    "playing_role": "All rounder",
+    "rating": 770,
+    "batting_style": "Right hand bat",
+    "bowling_style": "Right arm offbreak",
+    "bpl_auction_rating": 9.1,
+    "price": 925000
+  },
+  {
+    "image": "https://i.ibb.co/DD6Z5JH0/R-1.png",
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "playing_role": "All rounder",
+    "rating": 870,
+    "batting_style": "Left hand bat",
+    "bowling_style": "Left arm orthodox",
+    "bpl_auction_rating": 9.7,
+    "price": 1500000
+  },
+  {
+    "image": "https://i.ibb.co/DD6Z5JH0/R-1.png",
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "playing_role": "Batter",
+    "rating": 890,
+    "batting_style": "Right hand bat",
+    "bowling_style": "Right arm offbreak",
+    "bpl_auction_rating": 9.8,
+    "price": 1750000
+  }
+]
