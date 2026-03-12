@@ -1,8 +1,13 @@
 import React from 'react';
 import deleteImg from "../../assets/delete.png"
 import playerImg from "../../assets/R (1).png"
-const SelectedPlayers = ({chosenPlayer}) => {
-    console.log(chosenPlayer)
+const SelectedPlayers = ({ chosenPlayer, handleDelete}) => {
+    
+    // const handleRemovePlayer=(player)=>{
+    //         handleDelete(player)
+           
+    // }
+    // console.log(chosenPlayer)
     return (
         <div className='max-w-330 mx-auto font-bold mt-2.5'>
             
@@ -17,7 +22,7 @@ const SelectedPlayers = ({chosenPlayer}) => {
 
                 </div>
                 <div  className='p-4'>
-                    <button onClick={()=>player.remove} className='btn'><img className='w-5' src={deleteImg} alt="" /></button>
+                    <button onClick={()=>handleDelete(player)} className='btn'><img className='w-5' src={deleteImg} alt="" /></button>
                 </div>
 
             </div>    

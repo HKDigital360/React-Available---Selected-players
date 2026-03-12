@@ -6,6 +6,7 @@ import { Suspense, useState } from "react"
 import AvailablePlayers from "./Components/AvailablePlayers/AvailablePlayers"
 import NavBar from "./Components/NavBar/NavBar"
 import SelectedPlayers from "./Components/SelectedPlayers/SelectedPlayers"
+import PlayerCard from "./Components/PlayerCard/PlayerCard"
 
 const fetchPlayers = async () => {
   const res = await fetch("/players.json")
@@ -14,6 +15,8 @@ const fetchPlayers = async () => {
 
 const playersPromise = fetchPlayers()
 
+
+
 function App() {
   
 
@@ -21,6 +24,14 @@ function App() {
   const [availableBalance, setAvailableBalance]= useState(60000000);
   const [chosenPlayer, setChosenPlayer]=useState([]);
   // console.log(chosenPlayer);
+
+const handleDelete=(p)=>{
+
+console.log(p)
+}
+
+
+
   return (
     <>
 
@@ -39,7 +50,7 @@ function App() {
           <AvailablePlayers chosenPlayer={chosenPlayer} setChosenPlayer={setChosenPlayer} toggle={toggle} availableBalance={availableBalance} setAvailableBalance ={setAvailableBalance} playersPromise={playersPromise}>
 
           </AvailablePlayers>
-        </Suspense> : <SelectedPlayers chosenPlayer={chosenPlayer}  >
+        </Suspense> : <SelectedPlayers handleDelete={handleDelete} chosenPlayer={chosenPlayer}  >
 
         </SelectedPlayers>
       }

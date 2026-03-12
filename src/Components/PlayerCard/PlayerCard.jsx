@@ -3,6 +3,7 @@ import userIcon from "../../assets/user.png"
 import flagIcon from "../../assets/report.png"
 import playerImg from "../../assets/R (1).png"
 import AvailablePlayers from '../AvailablePlayers/AvailablePlayers';
+import SelectedPlayers from '../SelectedPlayers/SelectedPlayers';
 
 const PlayerCard = ({player,toggle, availableBalance, setAvailableBalance, chosenPlayer, setChosenPlayer}) => {
    const [isSelected, setIsSelected]= useState(false);
@@ -51,8 +52,11 @@ const PlayerCard = ({player,toggle, availableBalance, setAvailableBalance, chose
                         </div>
 
                     </div>
+                    
                 </div>
+                
     );
+    
 };
 
 export default PlayerCard;
