@@ -27,7 +27,10 @@ function App() {
 
 const handleDelete=(p)=>{
 
-console.log(p)
+const filteredPlayer =chosenPlayer.filter(player=>player.name !== p.name)
+// console.log(filteredPlayer)
+setChosenPlayer(filteredPlayer);
+setAvailableBalance(availableBalance+p.price)
 }
 
 
