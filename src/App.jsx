@@ -7,6 +7,7 @@ import AvailablePlayers from "./Components/AvailablePlayers/AvailablePlayers"
 import NavBar from "./Components/NavBar/NavBar"
 import SelectedPlayers from "./Components/SelectedPlayers/SelectedPlayers"
 import PlayerCard from "./Components/PlayerCard/PlayerCard"
+import Footer from "./Components/Footer/Footer"
 
 const fetchPlayers = async () => {
   const res = await fetch("/players.json")
@@ -58,7 +59,7 @@ setAvailableBalance(availableBalance+p.price)
         </SelectedPlayers>
       }
  
-
+        <Footer></Footer>
     </>
   )
 }

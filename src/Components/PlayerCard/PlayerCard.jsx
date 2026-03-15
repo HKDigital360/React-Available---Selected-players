@@ -19,7 +19,7 @@ const PlayerCard = ({player,toggle, availableBalance, setAvailableBalance, chose
 //    };
   
    return (
-        <div  className="card p-4  bg-base-100 shadow-sm mt-4 max-w-330 ">
+        <div  className="card p-4  bg-base-100 shadow-sm mt-4 mb-20 max-w-330 ">
                     <figure>
                         <img
                             src={playerImg}
